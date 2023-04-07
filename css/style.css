@@ -1,0 +1,71 @@
+.circle div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+#div1 {
+    background-color: red;
+}
+#div2 {
+    background-color: yellow;
+}
+#div3 {
+    background-color: green;
+}
+
+b {
+    color: rgb(233, 81, 81);
+}
+strong {
+    text-decoration: underline black;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: hsla(56, 83%, 49%, 0.932);
+}
+a:hover {
+    color: green;
+}
+body.bodytags{
+    background-image: url(../img/v960-ning-30.jpg);
+    font-family: Arial;
+    font-size: 14px;
+}
+ul {
+    list-style: circle;
+}
+.Rd {
+    text-indent: 10px;
+}
+h3 {
+    font-family: Arial;
+    font-size: 24px;
+}
+h1 {
+    font-family: Arial;
+    font-size: 24px;
+}
+.img_gems {
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.brawl {
+    background-image: url(../img/1667305408_1-celes-club-p-sinii-fon-bravl-stars-instagram-1.jpg);
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+li {
+    color: yellow;
+    list-style-type: none;
+}
+li::before {
+    content: '♥';
+    color: green;
+}

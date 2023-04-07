@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* direction and wrap */
+    background-color: yellow;
+    justify-content: center;
+}
+.container>div {
+    border: 1px solid red;
+    /* flex-grow: ; flex-shrink: ; flex-basis: ;*/
+    flex: 1 0 100px;
+}
+.e1 {
+    align-self: end;
+}

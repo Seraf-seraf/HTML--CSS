@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.text__content {
+    text-align: center;
+}
+h1 {
+    margin-top: 30px;
+    font-family: GothaPro;
+}
+.underline {
+    height: 3px;
+    width: 180px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.description {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-family: ProximaNova;
+}
+img {
+    height: 85px;
+    width: 85px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 0px rgba(0, 1, 1, 0.75);
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+.teammates {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-size: 16px;
+    font-family: GothaPro;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    text-align: center;
+}
+.role {
+    font-size: 12px;
+    font-family: "Georgia";
+    color: rgb(48, 48, 48);
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon {
+    display: flex;
+    width: 60px;
+    justify-content: space-around;
+    align-items: center;
+}      
+.icon > i {
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+.fa-telegram:hover {
+    color:  rgb(0, 136, 204);
+}
+.fa-vk:hover {
+    color: #07f;
+}
+@font-face {
+    font-family: GothaPro;
+    src: url(fonts/GothaProBla.otf);
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/ofont.ru_Proxima\ Nova.ttf);
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+    width: 210px;
+    height: 210px;
+}
+
+      
+
+      

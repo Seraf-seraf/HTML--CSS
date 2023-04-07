@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Tahoma;
+    src: url(../tahoma.ttf);
+}
+.box {
+    height: 592px;
+    width: 1400px;
+    margin: 0 auto;
+}
+.text__content {
+    text-align: center;
+}
+.title {
+    margin-top: 107px;
+    margin-bottom: 30px;
+    font-family: Tahoma;
+    color: rgb(51, 51, 51);
+}
+.underground {
+    height: 2px;
+    width: 70px;
+    background-color: rgb(255, 139, 56);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.description {
+    margin-bottom: 80px;
+    font-size: 14px;
+    font-family: Tahoma;
+    color: rgb(134, 135, 139);
+}
+.catalog {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 1150px;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 20px;
+    font-family: Tahoma;
+    color: rgb(51, 51, 51);
+    margin-bottom: 30px;
+}
+.description__chapter {
+    max-width: 340px;
+    font-size: 14px;
+    font-family: Tahoma;
+    color: rgb(134, 135, 139);
+    line-height: 20px;
+}
+.fa-lightbulb {
+    transform: scaleX(-1);
+}
+.chapter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    color: rgb(255, 139, 56);
+    font-size: 27px;
+    height: 74px;
+    width: 74px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 2px rgb(255, 139, 56) solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+      
